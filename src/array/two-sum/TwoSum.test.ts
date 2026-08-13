@@ -16,3 +16,7 @@ test("returns an empty array if there is not pair", () => {
 test("works with negative numbers", () => {
     expect(twoSum([-1, -2, 8, 3], -3)).toEqual([1, 0]);
 })
+
+test("works with two numbers", () => {
+    expect(twoSum([3, 3], 6)).toEqual([1, 0]);
+})
