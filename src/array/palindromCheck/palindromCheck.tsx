@@ -1,4 +1,4 @@
-function isPalindrome(string: string): boolean {
+export function isPalindrome(string: string): boolean {
   if (string.length === 1 || string.length === 0) return true;
   
     for (let i = 0; i < Math.floor(string.length/2); i++) {
