@@ -10,7 +10,7 @@ mergeKSortedLists([], [1, 2], [3, 4]);
 mergeKSortedLists([], [], []);
 // []
 
-function mergeKSortedLists(a: number[], b: number[], c: number[]) {
+export function mergeKSortedLists(a: number[], b: number[], c: number[]) {
   let mergedArray = [];
 
   let i = 0;
