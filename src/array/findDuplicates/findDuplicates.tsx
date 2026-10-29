@@ -10,7 +10,7 @@ findDuplicates([1, 1, 1, 1]);
 findDuplicates([]);
 // []
 
-function findDuplicates(array: number[]) : number[] {
+export function findDuplicates(array: number[]) : number[] {
   const seen = new Set<number>();
   const dubl = new Set<number>();
 
