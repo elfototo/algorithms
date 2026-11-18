@@ -2,7 +2,7 @@ type ListNode = {
   val: number;
   next: ListNode | null;
 };
-function reverseLinkedList(head: ListNode | null) {
+export function reverseLinkedList(head: ListNode | null) {
   let prev: ListNode | null = null;
   let current = head;
 
