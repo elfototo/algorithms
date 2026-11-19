@@ -2,7 +2,7 @@
 
 // const target = 9
 
-function binarySearch(nums: number[], target: number) {
+export function binarySearch(nums: number[], target: number) {
   let left = 0;
   let right = nums.length - 1;
 
