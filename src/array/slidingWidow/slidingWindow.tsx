@@ -15,7 +15,7 @@
 
 // Дана строка s. Нужно найти длину самой длинной подстроки, в которой все символы уникальны (не повторяются).
 
-function longestSubstring(str: string) {
+export function longestSubstring(str: string) {
   let set = new Set<string | undefined>();
 
   let left = 0;
